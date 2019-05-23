@@ -34,6 +34,6 @@ app.get("/word", (req, res, next) => {
   res.send(base64_encode("./wordApp2.docx"));
 })
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
  console.log("Server running on port 5000");
 });
